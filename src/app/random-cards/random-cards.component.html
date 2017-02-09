@@ -1,8 +1,8 @@
 <div class="row">
+  <app-word-card *ngIf="card" [card]="card"></app-word-card>
   <div class="panel text-center">
   <button type="button" class="btn btn-default" aria-label="Next" (click)="getNext()">
     <span class="glyphicon glyphicon-random" aria-hidden="true"></span>
   </button>
   </div>
-  <app-word-card *ngIf="card" [card]="card"></app-word-card>
 </div>
