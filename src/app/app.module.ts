@@ -10,13 +10,15 @@ import { AllCardsComponent } from './all-cards/all-cards.component';
 
 import { AppRoutingModule }     from './app-routing/app-routing.module';
 import { RandomCardsComponent } from './random-cards/random-cards.component';
+import { SequentalCardsComponent } from './sequental-cards/sequental-cards.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WordCardComponent,
     AllCardsComponent,
-    RandomCardsComponent    
+    RandomCardsComponent,
+    SequentalCardsComponent    
   ],
   imports: [
     BrowserModule,

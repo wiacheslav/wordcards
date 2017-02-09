@@ -13,10 +13,7 @@ export class RandomCardsComponent implements OnInit {
   constructor(private cardsService: CardsService) { }
 
   getNext() {
-    this.cardsService.getRandom().then(card => {
-      this.card = card;
-      console.log(this.card);
-    });
+    this.cardsService.getRandom().then(card => this.card = card);
   }
 
   ngOnInit() {

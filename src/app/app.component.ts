@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, RouterState  } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,13 +9,16 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   inverse: boolean;
   direction: string;
-  constructor(){
+  routerState: RouterState;
+  constructor(router: Router){
     this.inverse = false;
+    this.routerState = router.routerState;
   }
 
   toggle(): void {
     this.inverse = !this.inverse;
     this.direction = this.inverse ? 'Ru -> En' : 'En -> Ru';
+    console.log(this.routerState);
   }
 
   ngOnInit() {

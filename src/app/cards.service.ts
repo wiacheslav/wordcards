@@ -4,6 +4,8 @@ import { WordCard, CARDS } from './word-card';
 @Injectable()
 export class CardsService {
   cardsLen = CARDS.length;
+  
+  lastValue: number = -1;
 
   constructor() { }
 
@@ -17,7 +19,12 @@ export class CardsService {
   }
 
   private getRandomIndex(): number {
-    return Math.floor(Math.random() * this.cardsLen);
+    let newValue = -1;
+    do {
+      newValue = Math.floor(Math.random() * this.cardsLen);  
+    } while(newValue == this.lastValue);
+    this.lastValue = newValue;
+    return newValue;
   }
 
 }
