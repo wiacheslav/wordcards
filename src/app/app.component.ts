@@ -18,7 +18,6 @@ export class AppComponent implements OnInit {
   toggle(): void {
     this.inverse = !this.inverse;
     this.direction = this.inverse ? 'Ru -> En' : 'En -> Ru';
-    console.log(this.routerState);
   }
 
   ngOnInit() {

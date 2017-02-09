@@ -1,6 +1,6 @@
 import { Component, OnInit, Output } from '@angular/core';
 import { CardsService } from '../cards.service';
-import { WordCard, CARDS } from '../word-card';
+import { WordCard } from '../word-card';
 
 @Component({
   selector: 'app-random-cards',
@@ -10,6 +10,7 @@ import { WordCard, CARDS } from '../word-card';
 export class RandomCardsComponent implements OnInit {
 
   card: WordCard;
+
   constructor(private cardsService: CardsService) { }
 
   getNext() {

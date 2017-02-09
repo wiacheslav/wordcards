@@ -15,7 +15,15 @@ export class CardsService {
 
   getRandom(): Promise<WordCard> {
     let index = this.getRandomIndex();
+    return this.getByIndex(index);
+  }
+
+  getByIndex(index: number): Promise<WordCard> {
     return Promise.resolve(CARDS[index]);
+  }
+
+  getMaxValue(): Promise<number> {
+    return Promise.resolve(CARDS.length);
   }
 
   private getRandomIndex(): number {
