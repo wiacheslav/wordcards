@@ -9,12 +9,14 @@ import { CardsService } from './cards.service';
 import { AllCardsComponent } from './all-cards/all-cards.component';
 
 import { AppRoutingModule }     from './app-routing/app-routing.module';
+import { RandomCardsComponent } from './random-cards/random-cards.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WordCardComponent,
-    AllCardsComponent    
+    AllCardsComponent,
+    RandomCardsComponent    
   ],
   imports: [
     BrowserModule,

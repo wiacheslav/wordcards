@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { WordCard } from './word-card';
-import { CardsService } from './cards.service';
 
 @Component({
   selector: 'app-root',
@@ -8,10 +6,9 @@ import { CardsService } from './cards.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  cards: WordCard;
   inverse: boolean;
   direction: string;
-  constructor(private cardService: CardsService){
+  constructor(){
     this.inverse = false;
   }
 

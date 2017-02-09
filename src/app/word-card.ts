@@ -7,62 +7,62 @@ export class WordCard {
 export const CARDS: WordCard[] = [
     {
         id: 0,
-        english: `bla-bla`,
-        russian: `бла-бла`
+        english: `refund`,
+        russian: `возвращение (денег); возмещение (расходов, убытков); компенсация`
     },
     {
-        id: 0,
-        english: `bla-bla`,
-        russian: `бла-бла`
+        id: 1,
+        english: `toffee`,
+        russian: `ирис`
     },
     {
-        id: 0,
-        english: `bla-bla`,
-        russian: `бла-бла`
+        id: 2,
+        english: `to close a deal`,
+        russian: `заключить сделку`
     },
     {
-        id: 0,
-        english: `bla-bla`,
-        russian: `бла-бла`
+        id: 3,
+        english: `outlet`,
+        russian: `торговая точка`
     },
     {
-        id: 0,
-        english: `bla-bla`,
-        russian: `бла-бла`
+        id: 4,
+        english: `supplier`,
+        russian: `поставщик`
     },
     {
-        id: 0,
-        english: `bla-bla`,
-        russian: `бла-бла`
+        id: 5,
+        english: `profit`,
+        russian: `прибыль, доход`
     },
     {
-        id: 0,
-        english: `bla-bla`,
-        russian: `бла-бла`
+        id: 6,
+        english: `out of stock`,
+        russian: `распродано`
     },
     {
-        id: 0,
-        english: `bla-bla`,
-        russian: `бла-бла`
+        id: 7,
+        english: `interest-free credit`,
+        russian: `беспроцентный кредит`
     },
     {
-        id: 0,
-        english: `bla-bla`,
-        russian: `бла-бла`
+        id: 8,
+        english: `parent company`,
+        russian: `материнская компания, компания-учредитель`
     },
     {
-        id: 0,
-        english: `bla-bla`,
-        russian: `бла-бла`
+        id: 9,
+        english: `to be on course`,
+        russian: `по графику`
     },
     {
-        id: 0,
-        english: `bla-bla`,
-        russian: `бла-бла`
+        id: 10,
+        english: `asset`,
+        russian: `имущество, фонды, активы`
     },
     {
-        id: 0,
-        english: `bla-bla`,
-        russian: `бла-бла`
+        id: 11,
+        english: `shareholder`,
+        russian: `акционер, держатель акций`
     }
 ];
