@@ -9,9 +9,18 @@ import { CardsService } from './cards.service';
 })
 export class AppComponent implements OnInit {
   cards: WordCard;
-  constructor(private cardService: CardsService){}
+  inverse: boolean;
+  direction: string;
+  constructor(private cardService: CardsService){
+    this.inverse = false;
+  }
+
+  toggle(): void {
+    this.inverse = !this.inverse;
+    this.direction = this.inverse ? 'Ru -> En' : 'En -> Ru';
+  }
 
   ngOnInit() {
-    console.log(this.cardService);
+    this.direction = this.inverse ? 'Ru -> En' : 'En -> Ru';
   }
 }

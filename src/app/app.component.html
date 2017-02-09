@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-static-top">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
@@ -15,9 +15,11 @@
         <li routerLinkActive="active"><a routerLink="/all">All</a></li>
         <li routerLinkActive="active"><a routerLink="/sequentially">Sequentially</a></li>
         <li routerLinkActive="active"><a routerLink="/randomly">Randomly</a></li>
+        <li class="active"><a routerLink="" (click)="toggle()">{{direction}}</a></li>
       </ul>
     </div>
 </div>
 </nav>
-
-<router-outlet></router-outlet>
+<div class="container cards">
+  <router-outlet></router-outlet>
+</div>
