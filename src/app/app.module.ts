@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { WordCardComponent } from './word-card/word-card.component';
@@ -26,7 +27,8 @@ import { SequentalCardsComponent } from './sequental-cards/sequental-cards.compo
     HttpModule,
     AppRoutingModule
   ],
-  providers: [CardsService],
+  providers: [CardsService,
+  { provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
