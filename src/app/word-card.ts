@@ -67,7 +67,7 @@ export const CARDS: WordCard[] = [
     },
     {
         id: 12,
-        english: `fleet of truks`,
+        english: `fleet of trucks`,
         russian: `парк грузовых автомобилей`
     },
     {
