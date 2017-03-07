@@ -454,5 +454,175 @@ export const CARDS: WordCard[] = [
         id: 11,
         english: `retire`,
         russian: `уходить в отставку, на пенсию`
+    },
+    {
+        id: 11,
+        english: `an admission fee`,
+        russian: `входной билет, вступительный взнос`
+    },
+    {
+        id: 11,
+        english: `comparable with`,
+        russian: `сравнимо с, сопастовимо с`
+    },
+    {
+        id: 11,
+        english: `durable`,
+        russian: `прочный, долговременный`
+    },
+    {
+        id: 11,
+        english: `if all goes to plan`,
+        russian: `если всё пойдет по плану`
+    },
+    {
+        id: 11,
+        english: `In response to`,
+        russian: `в ответ на`
+    },
+    {
+        id: 11,
+        english: `Intense media coverage`,
+        russian: `Широкое освещение в СМИ`
+    },
+    {
+        id: 11,
+        english: `local availabilty`,
+        russian: `наличие на местном уровне`
+    },
+    {
+        id: 11,
+        english: `long-term competitiveness`,
+        russian: `Долгосрочная конкуренция`
+    },
+    {
+        id: 11,
+        english: `Out of the blue`,
+        russian: `из ниоткуда, нежданно-негаданно`
+    },
+    {
+        id: 11,
+        english: `to appoint`,
+        russian: `назначать`
+    },
+    {
+        id: 11,
+        english: `to be in great demand`,
+        russian: `пользоваться большим спросом`
+    },
+    {
+        id: 11,
+        english: `to be worth of`,
+        russian: `стоящий, иметь стоимость`
+    },
+    {
+        id: 11,
+        english: `to bring in`,
+        russian: `приглашать, привлекать; приносить (доход)`
+    },
+    {
+        id: 11,
+        english: `to charge an entrance fee to`,
+        russian: `взимать плату за вход с кого-либо`
+    },
+    {
+        id: 11,
+        english: `to claim`,
+        russian: `заявлять, утверждать`
+    },
+    {
+        id: 11,
+        english: `to develop an interest in`,
+        russian: `форимировать интерес в`
+    },
+    {
+        id: 11,
+        english: `to discover by accident`,
+        russian: `обнаруживать случайно`
+    },
+    {
+        id: 11,
+        english: `to estimate`,
+        russian: `оценивать`
+    },
+    {
+        id: 11,
+        english: `to extend a product range`,
+        russian: `расширить продуктовую линейку`
+    },
+    {
+        id: 11,
+        english: `to fill a gap`,
+        russian: `заполнить пробел`
+    },
+    {
+        id: 11,
+        english: `to introduce to the public`,
+        russian: `представить публике`
+    },
+    {
+        id: 11,
+        english: `to make a breakthrough`,
+        russian: `сделать прорыв`
+    },
+    {
+        id: 11,
+        english: `to raise money`,
+        russian: `собрать деньги`
+    },
+    {
+        id: 11,
+        english: `to raise status`,
+        russian: `повысить статус`
+    },
+    {
+        id: 11,
+        english: `to satisfy consumer demand`,
+        russian: `удовлетворять потребительский спрос`
+    },
+    {
+        id: 11,
+        english: `to take advantage of an opportunity`,
+        russian: `воспользоваться возможностью`
+    },
+    {
+        id: 11,
+        english: `to win an award`,
+        russian: `получить награду`
+    },
+    {
+        id: 11,
+        english: `to work on a project`,
+        russian: `работать над проектом`
+    },
+    {
+        id: 11,
+        english: `an upmarket image`,
+        russian: `высококлассный имидж`
+    },
+    {
+        id: 11,
+        english: `venture`,
+        russian: `коммерческое предприятие`
+    },
+    {
+        id: 11,
+        english: `to meet a need`,
+        russian: `удовлетворять нужду, потребность`
+    },
+    {
+        id: 11,
+        english: `to enter a market`,
+        russian: `выйти на рынок`
+    },
+    {
+        id: 11,
+        english: `to develop a business idea`,
+        russian: `разработать бизнес идею`
+    },
+    {
+        id: 11,
+        english: `to protect the environment`,
+        russian: `охранять оркужащую среду`
     }
 ];
