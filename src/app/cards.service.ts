@@ -5,9 +5,15 @@ import { WordCard, CARDS } from './word-card';
 export class CardsService {
   cardsLen = CARDS.length;
   
-  lastValue: number = -1;
+  lastValues: number[];
 
-  constructor() { }
+  constructor() {
+    this.lastValues = new Array();
+    let f = this.cardsLen / 5;
+    for (let i = 0; i < f; i++) {
+      this.lastValues.push(-1);
+    }
+  }
 
   getAll(): Promise<WordCard[]> {
     return Promise.resolve(CARDS);
@@ -26,12 +32,20 @@ export class CardsService {
     return Promise.resolve(CARDS.length);
   }
 
+  isPresent(value: number): boolean {
+    if (this.lastValues.indexOf(value) === -1) {
+      this.lastValues.shift();
+      this.lastValues.push(value);
+      return false;
+    }
+    return true;
+  }
+
   private getRandomIndex(): number {
     let newValue = -1;
     do {
       newValue = Math.floor(Math.random() * this.cardsLen);  
-    } while(newValue == this.lastValue);
-    this.lastValue = newValue;
+    } while(this.isPresent(newValue));
     return newValue;
   }
 
